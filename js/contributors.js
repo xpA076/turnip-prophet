@@ -1,5 +1,5 @@
 function getContributors() {
-  if (window.jQuery) {
+  if (false) {
     const container = $('#contributors');
     jQuery.ajax('https://api.github.com/repos/mikebryant/ac-nh-turnip-prices/contributors', {})
       .done(function (data) {
